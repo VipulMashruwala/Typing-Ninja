@@ -1,0 +1,129 @@
+body{
+    background-image: url('../keyboard.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: absolute; 
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+}
+
+.container{
+   display: block;
+   width:100%;
+   margin: auto;
+   text-align: center;
+}
+
+#heading-id{
+    color: white;
+    font-size: 4rem;
+    margin-top: 5px;
+    margin-bottom: 2rem;
+}
+
+.text-class{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text-area-class{
+    width: 85%;
+    height: 13rem;
+    border: 1px solid blue;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 25px;
+    outline: none;
+}
+
+.btn-class{
+    margin: 10px;
+    padding: 5px;
+    width: 6rem;
+    height: 2.5rem;
+    font-size: 20px;
+    color: white;
+    background: black;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.card{
+    /* border: 2px solid red; */
+    background-color: aliceblue;
+    width: 85%;
+    margin: auto;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.card-output{
+    /* border: 2px solid red; */
+    background-color: aliceblue;
+    width: 85%;
+    margin: auto;
+    margin-top: 1.5rem;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.result-output{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.result{
+    padding: 17px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.result-heading{
+    margin: auto;
+    margin-top: 5px;
+}
+
+.progress-class{
+    padding: 10px;
+    width: 25%;
+}
+
+.progress-div{
+    margin-bottom: 10px;
+}
+
+.accuracy-label{
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+@media screen and (max-width : 880px) {
+    .result-output{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .result{
+        padding: 3px;
+        font-size: 17px;
+        font-weight: bold;
+        margin: 10px;
+    }
+
+    .progress-class{
+        padding: 10px;
+        width: 40%;
+    }
+    #heading-id{
+        color: white;
+        font-size: 3.2rem;
+        margin-top: 5px;
+        margin-bottom: 2rem;
+    }
+}
